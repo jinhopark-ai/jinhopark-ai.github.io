@@ -7,34 +7,30 @@ title: Home
 <div class="docs-section">
   <h4>About</h4>
   <p>
-    I am a Research Scientist at <a href="https://rebuilderai.com/">RebuilderAI</a> in Seongnam, South Korea. 
-    I received my Master's degree in Computer Science from KAIST under the supervision of <a href="https://mhsung.github.io/">Prof. Minhyuk Sung</a>. 
-    I received my B.S. in Electrical Engineering and Computer Science at KAIST in 2022.
+    Hello, I'm a M.S student in Language & Knowlege Lab at KAIST Kim Jaechul Graduate School of AI. I am grateful to be advised by Minjoon Seo. Prior to my Master's studies, I earned a B.S. in Computer Science at KAIST with a minor in Electrical Engineering in 2024.
   </p>
-
-  <p>
-    My current research interests lie in machine learning for 3D Computer Vision and Graphics (Deformation, Generation, and Editing), and 
-    I am also broadly interested in Neural Radiance Fields, Diffusion Model and Multimodal Understanding.
-  </p> 
   
   <p>
-    For details, refer to my <a href={{ "/assets/cv/cv_KunhoKim.pdf" | prepend: site.baseurl }} target="_blank">Curriculum Vitae (CV)</a>.
+    I am passionate about both the analysis and application of language models within the field of Natural Language Processing (NLP). My research focuses on exploring how language models acquire and utilize knowledge during their training, specifically through the areas of Knowledge Acquisition of LM and Mechanistic Interpretability. I aim to build reliable language models based on a deeper, more robust understanding of their internal process. Additionally, I have an interest in advancing high-performing large language models (LLMs) in areas such as Multilingual and Reasoning, as well as exploring research in State Space Models (SSM).
   </p>
 
+  <p>
+    For details, refer to my <a href={{ "/assets/cv/Curriculum_Vitae_Jinho_Park.pdf" | prepend: site.baseurl }} target="_blank">Curriculum Vitae (CV)</a>.
+  </p>
 </div>
 
 
 <!-- ========== News ========== -->
-<div class="docs-section" id="news">
+<!-- <div class="docs-section" id="news">
   <h4>News</h4>
-  <!-- <p> Scroll for older news </p> -->
+  <p> Scroll for older news </p>
   <UL style="list-style-type: none; padding: 2px; overflow-y: scroll; height:100px;">
     {% for news in site.data.news.news %}
     <li> [{{ news.date }}] {{ news.content }}
     </li>
     {% endfor %}
   </UL>
-</div>
+</div> -->
 
 <!-- ========== PUBLICATIONS ========== -->
 <span class="anchor" id="publications"></span>
@@ -211,7 +207,7 @@ title: Home
 
   <div class="tab-content">
     <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+      <!-- {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       {% for project in selected_projects %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}
@@ -238,11 +234,11 @@ title: Home
         {% if index_modulo == 2 %}
           </div>
         {% endif %}
-    {% endfor %}
+    {% endfor %} -->
     </div>
 
     <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
+      <!-- {% for project in site.data.projects.projects %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}
           <div class="row">
@@ -268,7 +264,7 @@ title: Home
         {% if index_modulo == 2 %}
           </div>
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
     </div>
   </div>
 </div>
@@ -279,7 +275,7 @@ title: Home
 <div class="docs-section">
   <h4>Vitæ</h4>
   <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
+    <!-- {% for exp in site.data.experience.experiences %}
     <li>
       {% if exp.category == "work" %}
       <div class="direction-l">
@@ -293,7 +289,7 @@ title: Home
         <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
       </div>
     </li>
-    {% endfor %}
+    {% endfor %} -->
   </ul>
 </div>
 
@@ -301,9 +297,9 @@ title: Home
 <span class="anchor" id="experiences"></span>
 <div class="docs-section">
     <h4>Teaching Experiences</h4>
-    <p>
+    <!-- <p>
       Teaching Assistant, Spring 2023, <a href="https://mhsung.github.io/kaist-cs380-spring-2023/">Introduction to Computer Graphics (CS380)</a>, KAIST<br>
       Teaching Assistant, Fall 2023, <a href="https://mhsung.github.io/kaist-cs479-fall-2023/">Machine Learning for 3D Data (CS479)</a>, KAIST<br>
       <a href="https://acc.kaist.ac.kr/">Counseling Assistant</a>, Fall 2023, Computer Science, KAIST
-    </p>
+    </p> -->
 </div>
