@@ -1,90 +1,44 @@
 papers:
-###################### StyleMVD ######################
-  - title: "StyleMVD: Tuning-Free Image-Guided Texture Stylization by Synchronized Multi-View Diffusion"
-    shorts: "StyleMVD"
-    authors: "<b>Kunho Kim</b>, 
-              <a href='https://www.linkedin.com/in/sanghyeonan94/'>Sanghyeon An</a>, 
-              <a href='https://mhsung.github.io/'>Minhyuk Sung</a>"
-    venue: "Under review, 2024"
-    img: "assets/publications/StyleMVD/teaser.png"
-    project: "https://stylemvd.github.io/"
-    # paper_pdf: "https://arxiv.org/abs/2311.16739"
-    code: "https://github.com/StyleMVD/StyleMVD"
-    selected: y
-    # bib: "<br/>
-    #       @article{kim2024stylemvd,<br/>
-    #       title = {{StyleMVD: Tuning-Free Image-Guided Texture Stylization by Synchronized Multi-View Diffusion}},<br/>
-    #       author = {Kim, Kunho and An, Sanghyeon and Sung, Minhyuk},<br/>
-    #       journal = {arxiv preprint arXiv:2109.00000},<br/>
-    #       year = {2024}<br/>
-    #     }"
-
-###################### APAP ######################
-  - title: "As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors"
-    shorts: "APAP"
-    authors: "<a href='https://dvelopery0115.github.io/'>Seungwoo Yoo<sup>‡</sup></a>, 
-              <b>Kunho Kim<sup>‡</sup></b>, 
-              <a href= 'http://www.vovakim.com/'>Vladimir G. Kim</a>, 
-              <a href='https://mhsung.github.io/'>Minhyuk Sung</a>"
-    venue: "Conference on Computer Vision and Pattern Recognition Conference <b>(CVPR), 2024</b>"
-    img: "assets/publications/APAP/teaser.png"
-    project: "https://as-plausible-as-possible.github.io/"
-    paper_pdf: "https://arxiv.org/abs/2311.16739"
-    code: "https://github.com/KAIST-Geometric-AI-Group/APAP"
+  - title: "How Do Large Language Models Acquire Factual Knowledge During Pretraining?"
+    # shorts: "StyleMVD"
+    authors: "Hoyeon Chang, 
+              <b>Jinho Park</b>,
+              Seonghyeon Ye, 
+              Sohee Yang, 
+              Youngkyung Seo, 
+              Du-Seong Chang, 
+              Minjoon Seo"
+    venue: "<b>NeurIPS, 2024</b>"
+    img: "assets/publications/How_Do_Large_Language_Models_Acquire_Factual_Knowledge_During_Pretraining/figure1.jpeg"
+    # project: "https://stylemvd.github.io/"
+    paper_pdf: "https://arxiv.org/abs/2406.11813"
+    code: "https://github.com/kaistAI/factual-knowledge-acquisition"
     selected: y
     bib: "<br/>
-          @inproceedings{yoo2024apap,<br/>
-          title={{As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors}},<br/>
-          author={Seungwoo Yoo and Kunho Kim and Vladimir G. Kim and Minhyuk Sung},<br/>
-          booktitle={CVPR},<br/>
+          @inproceedings{chang2024large,<br/>
+          title={How do large language models acquire factual knowledge during pretraining?},<br/>
+          author={Chang, Hoyeon and Park, Jinho and Ye, Seonghyeon and Yang, Sohee and Seo, Youngkyung and Chang, Du-Seong and Seo, Minjoon},<br/>
+          booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}<br/>
+          }
+        "
+
+  - title: "Cognitive map for language models: Optimal planning via verbally representing the world model"
+    # shorts: "APAP"
+    authors: "Doyoung Kim, 
+              Jongwon Lee, 
+              <b>Jinho Park</b>, 
+              Minjoon Seo"
+    venue: "<b>CoRR 2024</b>"
+    img: "assets/publications/Cognitive_map_for_language_models/figure2.jpeg"
+    # project: "https://as-plausible-as-possible.github.io/"
+    paper_pdf: "https://arxiv.org/abs/2406.15275"
+    code: "https://github.com/kaistAI/language_extrapolation"
+    selected: y
+    bib: "<br/>
+          @article{kim2024cognitive,<br/>
+          title={Cognitive Map for Language Models: Optimal Planning via Verbally Representing the World Model},<br/>
+          author={Kim, Doyoung and Lee, Jongwon and Park, Jinho and Seo, Minjoon},<br/>
+          journal={CoRR},<br/>
           year={2024}<br/>
-        }"
-
-###################### SyncDiffusion ######################
-  - title: "SyncDiffusion: Coherent Montage via Synchronized Joint Diffusions"
-    shorts: "SyncDiffusion"
-    authors: "<a href='https://phillipinseoul.github.io/'>Yuseung Lee</a>, 
-              <b>Kunho Kim</b>, 
-              Hyunjin Kim, 
-              <a href='https://mhsung.github.io/'>Minhyuk Sung</a>"
-    venue: "Conference on Neural Information Processing Systems <b>(NeurIPS), 2023</b>"
-    img: "assets/publications/SyncDiffusion/teaser.png"
-    project: "https://syncdiffusion.github.io/"
-    paper_pdf: "https://arxiv.org/abs/2306.05178"
-    code: "https://github.com/KAIST-Geometric-AI-Group/SyncDiffusion"
-    selected: y
-    bib: "<br/>
-          @inproceedings{lee2023syncdiffusion,<br/>
-          title={{SyncDiffusion: Coherent Montage via Synchronized Joint Diffusions}},<br/>
-          author={Yuseung Lee and Kunho Kim and Hyunjin Kim and Minhyuk Sung},<br/>
-          booktitle={NeurIPS},<br/>
-          year={2023}<br/>
-        }"
-    
-###################### OptCtrlPoints ######################
-  - title: "OptCtrlPoints: Finding the Optimal Control Points for Biharmonic 3D Shape Deformation"
-    shorts: "OptCtrlPoints"
-    authors: "<b>Kunho Kim<sup>‡</sup></b>, 
-              <a href='https://mikacuy.github.io/'>Mikaela Angelina Uy<sup>‡</sup></a>, 
-              <a href='https://paschalidoud.github.io/'>Despoina Paschalidou</a>, 
-              <a href='https://www.cs.toronto.edu/~jacobson/'>Alec Jacobson</a>, 
-              <a href='https://geometry.stanford.edu/member/guibas/'>Leonidas Guibas</a>, 
-              <a href='https://mhsung.github.io/'>Minhyuk Sung</a>"
-    venue: "Computer Graphics Forum (Proc. <b>Pacific Graphics 2023</b>)"
-    img: "assets/publications/OptCtrlPoints/teaser.png"
-    project: "https://soulmates2.github.io/publications/OptCtrlPoints/"
-    paper_pdf: "https://arxiv.org/abs/2309.12899"
-    code: "https://github.com/Soulmates2/OptCtrlPoints"
-    slides: "https://soulmates2.github.io/publications/OptCtrlPoints/static/OptCtrlPoints_slides.pptx"
-    video: "https://www.youtube.com/watch?v=5citPk0yRgM"
-    selected: y
-    bib: "<br/>
-          @article {kim2023optctrlpoints,<br/>
-          journal = {Computer Graphics Forum},<br/>
-          title = {{OptCtrlPoints: Finding the Optimal Control Points for Biharmonic 3D Shape Deformation}},<br/>
-          author = {Kim, Kunho and Uy, Mikaela Angelina and Paschalidou, Despoina and Jacobson, Alec and Guibas, Leonidas J. and Sung, Minhyuk},<br/>
-          year = {2023},<br/>
-          publisher = {The Eurographics Association and John Wiley & Sons Ltd.},<br/>
-          ISSN = {1467-8659},<br/>
-          DOI = {10.1111/cgf.14963}<br/>
-          }"
+          }
+        "
