@@ -1,6 +1,6 @@
 papers:
   - title: "How Do Large Language Models Acquire Factual Knowledge During Pretraining?"
-    # shorts: "StyleMVD"
+    shorts: "How Do Large Language Models Acquire Factual Knowledge During Pretraining?"
     authors: "Hoyeon Chang, 
               <b>Jinho Park</b>,
               Seonghyeon Ye, 
@@ -16,14 +16,13 @@ papers:
     selected: y
     bib: "<br/>
           @inproceedings{chang2024large,<br/>
-          title={How do large language models acquire factual knowledge during pretraining?},<br/>
+          title={{How do large language models acquire factual knowledge during pretraining?}},<br/>
           author={Chang, Hoyeon and Park, Jinho and Ye, Seonghyeon and Yang, Sohee and Seo, Youngkyung and Chang, Du-Seong and Seo, Minjoon},<br/>
           booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}<br/>
-          }
-        "
+          }"
 
   - title: "Cognitive map for language models: Optimal planning via verbally representing the world model"
-    # shorts: "APAP"
+    shorts: "Cognitive map for language models: Optimal planning via verbally representing the world model"
     authors: "Doyoung Kim, 
               Jongwon Lee, 
               <b>Jinho Park</b>, 

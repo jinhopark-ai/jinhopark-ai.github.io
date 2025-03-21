@@ -74,7 +74,7 @@ projects:
     subtitle: "Using Char-RNN model (Deep Learning)"
     thumbnail: "assets/projects/no_image.png"
     url: "projects/2019_creating-song-lyrics.html"
-    selected: n
+    selected: y
 
 
   
