@@ -238,7 +238,7 @@ title: Home
     </div>
 
     <div class="tab-pane" id="projects-all">
-      <!-- {% for project in site.data.projects.projects %}
+      {% for project in site.data.projects.projects %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}
           <div class="row">
@@ -264,7 +264,7 @@ title: Home
         {% if index_modulo == 2 %}
           </div>
         {% endif %}
-      {% endfor %} -->
+      {% endfor %}
     </div>
   </div>
 </div>

@@ -5,6 +5,11 @@ projects:
   #   url: "projects/2022_score-based-denoising.html"
   #   selected: y
 
+  # - title: ""
+  #   subtitle: "Reimplement the paper (Deep Learning)"
+  #   thumbnail: "assets/projects/no_image.png"
+  #   selected: y
+
   # - title: "Minimum"
   #   subtitle: "Weight management diary App (iOS)"
   #   thumbnail: "assets/projects/2021_minimum/thumbnail.png"
@@ -29,11 +34,50 @@ projects:
   #   url: "projects/2020_fash.html"
   #   selected: y
 
-  # - title: "Creating Song Lyrics System"
-  #   subtitle: "Using Char-RNN model (Deep Learning)"
-  #   thumbnail: "assets/projects/no_image.png"
-  #   url: "projects/2019_creating-song-lyrics.html"
-  #   selected: n
+
+  - title: "Shoulder of Giants"
+    subtitle: "Reimplement the paper (3D AI)"
+    thumbnail: "assets/projects/2023_Shoulder_of_Giants/thumbnail.png"
+    selected: y
+  
+  - title: "HOMEY"
+    subtitle: "Mobile App optimizing home environment"
+    thumbnail: "assets/projects/2022_CS374/thumbnail.png"
+    selected: y
+
+  - title: "Training Efficient Boosting Algorithm"
+    subtitle: "Predict fake import declarations using LightGBM"
+    thumbnail: "assets/projects/no_image.png"
+    selected: y
+  
+  - title: "SPARCS Taxi"
+    subtitle: "Development on-campus taxi carpool App using React.js and Javascript"
+    thumbnail: "assets/projects/2021_SPARCS_TAXI/thumbnail.png"
+    selected: y
+
+  - title: "SPARCS SSO"
+    subtitle: "Manage integrated login system using Django REST framework and MySQL"
+    thumbnail: "assets/projects/no_image.png"
+    selected: n
+
+  - title: "Developing an in-house analytics page"
+    subtitle: "Event log analysis page using Vue.js and Spring"
+    thumbnail: "assets/projects/2021_SAMSUNG/thumbnail.png"
+    selected: y
+
+  - title: "Kaggle Competition"
+    subtitle: "Detect distracted driver using Deep Learning"
+    thumbnail: "assets/projects/2021_Kaggle/thumbnail.png"
+    selected: y
+
+  - title: "Creating Song Lyrics System"
+    subtitle: "Using Char-RNN model (Deep Learning)"
+    thumbnail: "assets/projects/no_image.png"
+    url: "projects/2019_creating-song-lyrics.html"
+    selected: n
+
+
+  
   
   # - title: "Lego Racer"
   #   subtitle: "Racing game (Unity, C#)"
