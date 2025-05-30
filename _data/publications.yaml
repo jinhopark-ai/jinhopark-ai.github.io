@@ -1,4 +1,81 @@
 papers:
+
+  - title: "The Coverage Principle: A Framework for Understanding Compositional Generalization"
+    shorts: "The Coverage Principle: A Framework for Understanding Compositional Generalization"
+    authors: "Hoyeon Chang*, 
+              <b>Jinho Park*</b>, 
+              Hanseul Cho, 
+              Sohee Yang, 
+              Miyoung Ko, 
+              Hyeonbin Hwang, 
+              Seungpil Won, 
+              Dohaeng Lee, 
+              Youbin Ahn, Minjoon Seo"
+    venue: "<b>Under review</b>"
+    img: "assets/publications/The_Coverage_Principle/figure1.png"
+    # project: "https://as-plausible-as-possible.github.io/"
+    paper_pdf: "https://arxiv.org/abs/2505.20278"
+    code: "https://github.com/kaistAI/coverage-principle"
+    selected: y
+    bib: "<br/>
+          @article{chang2025coverage,<br/>
+          title={The Coverage Principle: A Framework for Understanding Compositional Generalization},<br/>
+          author={Chang, Hoyeon and Park, Jinho and Cho, Hanseul and Yang, Sohee and Ko, Miyoung and Hwang, Hyeonbin and Won, Seungpil and Lee, Dohaeng and Ahn, Youbin and Seo, Minjoon},<br/>
+          journal={arXiv preprint arXiv:2505.20278},<br/>
+          year={2025}<br/>
+          }
+        "
+
+  - title: "The CoT Encyclopedia: Analyzing, Predicting, and Controlling how a Reasoning Model will Think"
+    shorts: "The CoT Encyclopedia: Analyzing, Predicting, and Controlling how a Reasoning Model will Think"
+    authors: "Seongyun Lee*, 
+              Seungone Kim*, 
+              Minju Seo, 
+              Yongrae Jo, 
+              Dongyoung Go, 
+              Hyeonbin Hwang, 
+              <b>Jinho Park</b>, 
+              Xiang Yue, 
+              Sean Welleck, 
+              Graham Neubig, 
+              Moontae Lee, 
+              Minjoon Seo"
+    venue: "<b>Under review</b>"
+    img: "assets/publications/The_CoT_Encyclopedia/motivation.png"
+    # project: "https://as-plausible-as-possible.github.io/"
+    paper_pdf: "https://arxiv.org/abs/2505.10185"
+    code: ""
+    selected: y
+    bib: "<br/>
+          @article{lee2025cot,<br/>
+          title={The CoT Encyclopedia: Analyzing, Predicting, and Controlling how a Reasoning Model will Think},<br/>
+          author={Lee, Seongyun and Kim, Seungone and Seo, Minju and Jo, Yongrae and Go, Dongyoung and Hwang, Hyeonbin and Park, Jinho and Yue, Xiang and Welleck, Sean and Neubig, Graham and others},<br/>
+          journal={arXiv preprint arXiv:2505.10185},<br/>
+          year={2025}<br/>
+          }
+        "
+
+  - title: "Cognitive map for language models: Optimal planning via verbally representing the world model"
+    shorts: "Cognitive map for language models: Optimal planning via verbally representing the world model"
+    authors: "Doyoung Kim, 
+              Jongwon Lee, 
+              <b>Jinho Park</b>, 
+              Minjoon Seo"
+    venue: "<b>CoRR 2024</b>"
+    img: "assets/publications/Cognitive_map_for_language_models/figure2.jpeg"
+    # project: "https://as-plausible-as-possible.github.io/"
+    paper_pdf: "https://arxiv.org/abs/2406.15275"
+    code: "https://github.com/kaistAI/language_extrapolation"
+    selected: y
+    bib: "<br/>
+          @article{kim2024cognitive,<br/>
+          title={Cognitive Map for Language Models: Optimal Planning via Verbally Representing the World Model},<br/>
+          author={Kim, Doyoung and Lee, Jongwon and Park, Jinho and Seo, Minjoon},<br/>
+          journal={CoRR},<br/>
+          year={2024}<br/>
+          }
+        "
+  
   - title: "How Do Large Language Models Acquire Factual Knowledge During Pretraining?"
     shorts: "How Do Large Language Models Acquire Factual Knowledge During Pretraining?"
     authors: "Hoyeon Chang, 
@@ -21,23 +98,4 @@ papers:
           booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}<br/>
           }"
 
-  - title: "Cognitive map for language models: Optimal planning via verbally representing the world model"
-    shorts: "Cognitive map for language models: Optimal planning via verbally representing the world model"
-    authors: "Doyoung Kim, 
-              Jongwon Lee, 
-              <b>Jinho Park</b>, 
-              Minjoon Seo"
-    venue: "<b>CoRR 2024</b>"
-    img: "assets/publications/Cognitive_map_for_language_models/figure2.jpeg"
-    # project: "https://as-plausible-as-possible.github.io/"
-    paper_pdf: "https://arxiv.org/abs/2406.15275"
-    code: "https://github.com/kaistAI/language_extrapolation"
-    selected: y
-    bib: "<br/>
-          @article{kim2024cognitive,<br/>
-          title={Cognitive Map for Language Models: Optimal Planning via Verbally Representing the World Model},<br/>
-          author={Kim, Doyoung and Lee, Jongwon and Park, Jinho and Seo, Minjoon},<br/>
-          journal={CoRR},<br/>
-          year={2024}<br/>
-          }
-        "
+  
