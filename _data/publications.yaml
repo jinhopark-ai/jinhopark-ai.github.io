@@ -55,13 +55,13 @@ papers:
           }
         "
 
-  - title: "Cognitive map for language models: Optimal planning via verbally representing the world model"
-    shorts: "Cognitive map for language models: Optimal planning via verbally representing the world model"
+  - title: "How language models extrapolate outside the training data: A case study in Textualized Gridworld"
+    shorts: "How language models extrapolate outside the training data: A case study in Textualized Gridworld"
     authors: "Doyoung Kim, 
               Jongwon Lee, 
               <b>Jinho Park</b>, 
               Minjoon Seo"
-    venue: "<b>CoRR 2024</b>"
+    venue: "<b>NeurIPS 2024 Compositional Learning Workshop</b>"
     img: "assets/publications/Cognitive_map_for_language_models/figure2.jpeg"
     # project: "https://as-plausible-as-possible.github.io/"
     paper_pdf: "https://arxiv.org/abs/2406.15275"
