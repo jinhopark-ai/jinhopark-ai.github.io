@@ -1,4 +1,11 @@
 experiences:
+
+- place: "LG AI Research"
+  time: "Sep 2025 - now"
+  title: "EXAONE team AI Engineer Intern"
+  subtitle: "Improving VLM evaluation and contributing to the development of the next version of the EXAONE model"
+  category: "work"
+
 - place: "KAIST"
   time: "Mar 2024 - now"
   title: "M.S. Student"

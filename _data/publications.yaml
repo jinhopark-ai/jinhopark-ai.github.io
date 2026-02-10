@@ -1,7 +1,7 @@
 papers:
 
-  - title: "The Coverage Principle: A Framework for Understanding Compositional Generalization"
-    shorts: "The Coverage Principle: A Framework for Understanding Compositional Generalization"
+  - title: "Characterizing Pattern Matching and Its Limits on Compositional Task Structures"
+    shorts: "Characterizing Pattern Matching and Its Limits on Compositional Task Structures"
     authors: "Hoyeon Chang*, 
               <b>Jinho Park*</b>, 
               Hanseul Cho, 
@@ -11,7 +11,7 @@ papers:
               Seungpil Won, 
               Dohaeng Lee, 
               Youbin Ahn, Minjoon Seo"
-    venue: "<b>Under review</b>"
+    venue: "<b>ICLR 2026</b>"
     img: "assets/publications/The_Coverage_Principle/figure1.png"
     # project: "https://as-plausible-as-possible.github.io/"
     paper_pdf: "https://arxiv.org/abs/2505.20278"
@@ -40,7 +40,7 @@ papers:
               Graham Neubig, 
               Moontae Lee, 
               Minjoon Seo"
-    venue: "<b>Under review</b>"
+    venue: "<b>ICLR 2026</b>"
     img: "assets/publications/The_CoT_Encyclopedia/motivation.png"
     # project: "https://as-plausible-as-possible.github.io/"
     paper_pdf: "https://arxiv.org/abs/2505.10185"
@@ -85,7 +85,7 @@ papers:
               Youngkyung Seo, 
               Du-Seong Chang, 
               Minjoon Seo"
-    venue: "<b>NeurIPS, 2024</b>"
+    venue: "<b>NeurIPS 2024</b>"
     img: "assets/publications/How_Do_Large_Language_Models_Acquire_Factual_Knowledge_During_Pretraining/figure1.jpeg"
     # project: "https://stylemvd.github.io/"
     paper_pdf: "https://arxiv.org/abs/2406.11813"
